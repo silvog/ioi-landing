@@ -41,6 +41,7 @@ body {
 
 .featurette {
     overflow: hidden;
+    padding-top: 5%;
 }
 
 .featurette-image.pull-left {
