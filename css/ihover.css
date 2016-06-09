@@ -29,8 +29,8 @@
 }
 .ih-item.circle .img {
   position: relative;
-  /*width: 500px;
-  height: 500px;*/
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
 }
 .ih-item.circle .img:before {

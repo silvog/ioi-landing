@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>One Page Wonder - Start Bootstrap Template</title>
+    <title>Metaforične preslikave in razširitve</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,6 +29,7 @@
 
 
     <script src="https://use.fontawesome.com/d4628cf4e3.js"></script>
+    <script src="js/layout.js"></script>
 
 
 </head>
@@ -47,20 +48,20 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Start Bootstrap</a>
+            <a class="navbar-brand" href="#">Tehnoperformans</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#about">About</a>
+                    <a href="#preslikave">Preslikave</a>
                 </li>
                 <li>
-                    <a href="#services">Services</a>
+                    <a href="#razsiritve">Razširitve</a>
                 </li>
-                <li>
+                <!--<li>
                     <a href="#contact">Contact</a>
-                </li>
+                </li>-->
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -84,21 +85,34 @@
     <!--<hr class="featurette-divider">-->
 
     <!-- First Featurette -->
-    <div class="featurette" id="about">
-        <!--<img class="featurette-image img-circle img-responsive pull-right" src="images/sejalec.jpg" height="500"
-             width="445">-->
+    <div class="featurette" id="preslikave">
 
-        <div class="ih-item circle effect2 left_to_right pull-right"><a href="#">
-            <div class="img">
-                <img class="featurette-image img-circle img-responsive" src="images/sejalec.jpg"
-                     height="500" width="445">
-            </div>
-            <div class="info">
-                <i class="fa fa-film fa-5x fa-inverse" aria-hidden="true"></i>
-                <!--<h3>Heading here</h3>
-                <p>Description goes here</p>-->
-            </div>
-        </a></div>
+        <div class="col-sm-9 col-md-8 col-lg-7">
+            <h2 class="featurette-heading">Metaforične preslikave
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla.
+                Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
+                vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+            </p>
+        </div>
+
+        <div class="col-sm-3 col-md-4 col-lg-5">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/sejalec.jpg" height="500"
+                 width="445">
+
+        </div>
+
+        <!--<div class="ih-item circle effect2 left_to_right pull-right"><a href="#">-->
+        <!--<div class="img">
+            <img class="featurette-image img-circle img-responsive" src="images/sejalec.jpg"
+                 height="500" width="445">
+        </div>-->
+        <!--<div class="info">
+            <i class="fa fa-film fa-5x fa-inverse" aria-hidden="true"></i>
+            <!--<h3>Heading here</h3>
+            <p>Description goes here</p>
+        </div>-->
+        <!--</a></div>-->
 
         <!--<div class="ih-item circle effect2 left_to_right"><a href="#">
             <div class="img"><img src="images/assets/4.jpg" alt="img"></div>
@@ -108,32 +122,29 @@
             </div>
         </a></div>-->
 
-        <h2 class="featurette-heading">Metaforične preslikave
-        </h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla.
-            Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
-            vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-        </p>
     </div>
 
     <hr class="featurette-divider">
 
     <!-- Second Featurette -->
-    <div class="featurette" id="services">
-        <img class="featurette-image img-circle img-responsive pull-left" src="images/slika3.jpg" height="500"
-             width="500">
-        <h2 class="featurette-heading">Metaforične razširitve
-        </h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla.
-            Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
-            vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-        </p>
+    <div class="featurette" id="razsiritve">
+        <div class="col-sm-3 col-md-4 col-lg-5">
+            <img class="featurette-image img-circle img-responsive" src="images/slika3.jpg">
+        </div>
+        <div class="col-sm-9 col-md-8 col-lg-7">
+            <h2 class="featurette-heading">Metaforične razširitve
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla.
+                Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
+                vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+            </p>
+        </div>
     </div>
 
-    <hr class="featurette-divider">
+    <!--<hr class="featurette-divider">-->
 
     <!-- Third Featurette -->
-    <div class="featurette" id="contact">
+    <!--<div class="featurette" id="contact">
         <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
         <h2 class="featurette-heading">The Third Heading
             <span class="text-muted">Will Seal the Deal.</span>
@@ -141,15 +152,20 @@
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
             semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
             commodo.</p>
-    </div>
+    </div>-->
 
-    <hr class="featurette-divider">
 
     <!-- Footer -->
     <footer>
         <div class="row">
+            <hr class="footer-hr"/>
             <div class="col-lg-12">
-                <p>&copy;Vse pravice pridržane, 2016</p>
+
+                <div class="pull-left">&copy; Vse pravice pridržane, 2016</div>
+                <div class="pull-right">
+                    <button onclick="scrollToTop()" class="btn"><i class="fa fa-arrow-up" aria-hidden="true"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </footer>

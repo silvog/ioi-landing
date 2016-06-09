@@ -57,7 +57,7 @@ body {
 }
 
 footer {
-    margin: 50px 0;
+    margin: 20px 0;
 }
 
 @media(max-width:1200px) {
@@ -176,4 +176,8 @@ footer {
         margin-bottom: 10px;
         margin-left: 0;
     }
+}
+
+.footer-hr {
+    margin-top: 50px;
 }
