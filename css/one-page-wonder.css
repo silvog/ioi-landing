@@ -26,13 +26,13 @@ body {
 .headline h1 {
     font-size: 130px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255, 255, 255, 0.9);
 }
 
 .headline h2 {
     font-size: 77px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255, 255, 255, 0.9);
 }
 
 .featurette-divider {
@@ -60,7 +60,7 @@ footer {
     margin: 20px 0;
 }
 
-@media(max-width:1200px) {
+@media (max-width: 1200px) {
     .headline h1 {
         font-size: 140px;
     }
@@ -86,7 +86,7 @@ footer {
     }
 }
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
     .headline h1 {
         font-size: 105px;
     }
@@ -116,7 +116,7 @@ footer {
     }
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
     .container {
         margin: 0 15px;
     }
@@ -130,7 +130,7 @@ footer {
     }
 }
 
-@media(max-width:668px) {
+@media (max-width: 668px) {
     .headline h1 {
         font-size: 70px;
     }
@@ -144,7 +144,7 @@ footer {
     }
 }
 
-@media(max-width:640px) {
+@media (max-width: 640px) {
     .headline {
         padding: 75px 0 25px 0;
     }
@@ -158,7 +158,7 @@ footer {
     }
 }
 
-@media(max-width:375px) {
+@media (max-width: 375px) {
     .featurette-divider {
         margin: 10px 0;
     }
@@ -189,6 +189,7 @@ hr.style18 {
     border-width: 1px 0 0 0;
     border-radius: 20px;
 }
+
 hr.style18:before {
     display: block;
     content: "";
@@ -198,4 +199,14 @@ hr.style18:before {
     border-color: #8c8b8b;
     border-width: 0 0 1px 0;
     border-radius: 20px;
+}
+
+.actionLinks {
+    padding: 10px;
+    margin: 2px;
+
+}
+
+.actionLinks a, a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
 }
