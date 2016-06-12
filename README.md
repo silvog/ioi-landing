@@ -1,11 +1,12 @@
-Predstavitvena stran projektov Metaforične preslikave in razširitve
+Predstavitev projektov Metaforične preslikave in razširitve
 =======
 
-Izvorna koda projektov:
+Predstavitev posameznega projekta vsebuje povezavo na aplikacijo in video z primerom uporabe aplikacije.
+
+Povezave do izvorne kode projektov:
 
 * [Preslikave](https://github.com/silvog/ioi-preslikave_base)
 * [Razširitve](https://github.com/silvog/ioi-razsiritve_base)
-
 
 
 Template used:
