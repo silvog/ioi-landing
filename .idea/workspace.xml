@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d8128d-d983-4d8a-9855-3615ebbb39a7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/video/preslikave.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/video/preslikaveEdited.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/video/preslikaveEdited_2.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/video/razsiritve.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/video/razsiritveEdited.mp4" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="ioi-landing.iws" />
@@ -29,8 +33,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="216" column="77" selection-start-line="216" selection-start-column="77" selection-end-line="216" selection-end-column="77" />
+            <state relative-caret-position="1565">
+              <caret line="245" column="36" selection-start-line="245" selection-start-column="36" selection-end-line="245" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -594,6 +598,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -650,12 +667,12 @@
       <workItem from="1465561038746" duration="14000" />
       <workItem from="1465753859739" duration="7758000" />
       <workItem from="1465807980676" duration="2629000" />
-      <workItem from="1465889319550" duration="657000" />
+      <workItem from="1465889319550" duration="2597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26987000" />
+    <option name="totallyTimeSpent" value="28927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -1000,8 +1017,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="216" column="77" selection-start-line="216" selection-start-column="77" selection-end-line="216" selection-end-column="77" />
+        <state relative-caret-position="1565">
+          <caret line="245" column="36" selection-start-line="245" selection-start-column="36" selection-end-line="245" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
