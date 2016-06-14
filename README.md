@@ -9,7 +9,10 @@ Povezave do izvorne kode projektov:
 * [Razširitve](https://github.com/silvog/ioi-razsiritve_base)
 
 Povezava **Povezava na aplikacijo** pri posameznem projektu vsebuje povezavo do izvorne kode posameznega projekta.
-Povezave se ustrezno posodobi v primeru postavitve aplikacij. 
+Povezave se ustrezno posodobi v primeru postavitve aplikacij.
+ 
+##Video
+Video vsebine se nahajajo v datoteki **video**.
 
 
 Template used:
