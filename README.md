@@ -8,6 +8,9 @@ Povezave do izvorne kode projektov:
 * [Preslikave](https://github.com/silvog/ioi-preslikave_base)
 * [Razširitve](https://github.com/silvog/ioi-razsiritve_base)
 
+Povezava **Povezava na aplikacijo** pri posameznem projektu vsebuje povezavo do izvorne kode posameznega projekta.
+Povezava se ustrezno posodobi v primeru objavitve aplikacij. 
+
 
 Template used:
 
